@@ -1,4 +1,4 @@
-# Python Online Chat
+# Python online webchat
 un simple chat de browser
 
 Server -> `Python3, Flask, flask-socketio`
