@@ -1,0 +1,58 @@
+.style1::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+.style1::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #F5F5F5;
+}
+
+.style1::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #555;
+}
+
+
+.html,body{
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+.loginform{
+  background: rgba(0,0,0,.1);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.56);
+  color: white;
+}
+
+#chatarea{
+  background: rgba(0,0,0,.1);
+  padding: 20px 10px 5px 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.56);
+}
+
+.clientmessage{
+	/* display: inline-block;
+	min-width: 300px; */
+  border-radius: 8px;
+  margin-top: 8px;
+  margin-right: 10px;
+  padding: 10px;
+  background: rgba(0,0,0,.1);
+}
+
+.servermessage{
+  border-radius: 8px;
+  margin-top: 8px;
+  margin-right: 10px;
+  padding: 10px;
+  background: rgba(90,90,90,.1);
+}

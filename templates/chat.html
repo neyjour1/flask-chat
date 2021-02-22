@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+
+{% set active_page = 'chat' %}
+
+{% block title %}Chat{% endblock %}
+
+{% block content %}
+
+<div class="row justify-content-center align-items-center" style="height:100vh;">
+
+  <div class="col" id="chatarea">
+    <h2 class="text-center">JINJA chat</h2>
+    <div id="area" class="style1" style="overflow-y: scroll; height: 60vh;">
+
+    </div>
+    <div class="row" style="margin-top: 20px;">
+      <div class="col-md-10">
+        <div class="form-group">
+          <input type="text" id="txtMessage" style="margin-left: 20px;" class="form-control" placeholder="Mensaje">
+        </div>
+      </div>
+      <div class="col-md-2">
+          <input type="button" id="btnSend" class="btn btn-primary btn-block" style="margin-right: 60px;" value="Enviar">
+      </div>
+    </div>
+  </div>
+
+</div>
+<!-- </div> -->
+
+{% endblock %}
+
+{% block script %}
+    <script src="https://cdn.socket.io/3.1.1/socket.io.min.js"></script>
+    <script type="text/javascript" src="/static/client.js"></script>
+{% endblock %}
